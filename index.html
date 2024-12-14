@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="inputfild">
+        <input type="password" placeholder="type password here..." id="input">
+        <img src="https://img.freepik.com/premium-vector/beautiful-hand-drawn-sketch-eye-vector-illustration-line-art_216166-1042.jpg" alt="" id="eye_btn">
+        
+
+    </div>
+
+    <script>
+      let input = document.getElementById("input");
+      let eye_btn = document.getElementById("eye_btn");
+
+      eye_btn.onclick = ()=>{
+        if(input.type --- "password"){
+            input.type = 'text';
+            eye_btn.src = ' https://img.freepik.com/premium-vector/beautiful-hand-drawn-sketch-eye-vector-illustration-line-art_216166-1042.jpg-of.svg'
+
+        }else{
+            input.type = 'password';
+            eye_btn.src = 'https://img.freepik.com/premium-vector/beautiful-hand-drawn-sketch-eye-vector-illustration-line-art_216166-1042.jpg-line.svg'
+        }
+      }
+    </script>
+</body>
+</html>
